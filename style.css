@@ -219,6 +219,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    border-bottom: 2px solid #22252e;
 }
 
 .about-hero-img {
@@ -246,7 +247,7 @@ h2 {
 }
 
 .red-line {
-    width: 80%;
+    width: 180px;
     height: 4px;
     background-color: #cc0000;
     margin: 10px auto 0 auto;
@@ -417,6 +418,177 @@ h2 {
     margin: 0;
 }
 
+.contact-main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.contact-intro {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-intro p {
+    color: #aaaaaa;
+    font-size: 14px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.contact-info-column {
+    flex: 1;
+}
+
+.academy-header {
+    margin-bottom: 25px;
+}
+
+.academy-desc {
+    color: #8a8d9a;
+    font-size: 13px;
+    margin-top: 5px;
+    line-height: 1.5;
+}
+
+.info-card {
+    background-color: #17181e;
+    border: 1px solid #22252e;
+    border-radius: 8px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-icon {
+    width: 45px;
+    height: 45px;
+    background-color: #22252e;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.info-text .info-label {
+    display: block;
+    color: #cc0000;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 3px;
+}
+
+.info-text strong {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.contact-form-column {
+    flex: 1;
+}
+
+.contact-form-box {
+    background-color: #17181e;
+    border: 1px solid #22252e;
+    padding: 35px;
+    border-radius: 10px;
+}
+
+.contact-form-box h3 {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.contact-form-box label {
+    display: block;
+    font-size: 11px;
+    font-weight: bold;
+    color: #8a8d9a;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.contact-form-box input[type="text"],
+.contact-form-box input[type="email"],
+.contact-form-box input[type="tel"],
+.contact-form-box textarea {
+    width: 100%;
+    background-color: #22252e;
+    border: 1px solid #2d313d;
+    border-radius: 6px;
+    padding: 12px 15px;
+    color: #ffffff;
+    font-size: 13px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.contact-form-box input:focus,
+.contact-form-box textarea:focus {
+    border-color: #cc0000;
+}
+
+.contact-form-box textarea {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #ffffff;
+    color: #111111;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #cc0000;
+    color: #ffffff;
+}
+
+.map-section {
+    margin-top: 40px;
+}
+
+.map-container {
+    width: 100%;
+    border: 4px solid #cc0000;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #17181e;
+    line-height: 0;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: none;
+}
+
 footer {
     text-align: center;
     padding: 20px;
@@ -424,4 +596,11 @@ footer {
     color: #777777;
     font-size: 12px;
     border-top: 1px solid #1a1a1a;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .contact-grid {
+        flex-direction: column;
+    }
 }
