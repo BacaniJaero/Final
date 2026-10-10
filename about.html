@@ -9,66 +9,99 @@
 <body>
 
     <header>
-        <h1>Taekwondo Club</h1>
-        <img src="img/logo.png" alt="Taekwondo Logo" class="logo">
+        <div class="header-left">
+            <img src="img/logo.png" alt="Taekwondo Logo" class="logo">
+            <div class="header-title">
+                <h1>TAEKWONDO</h1>
+                <span>HAU</span>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="belts.html">BELTS</a>
+            <a href="contact.html">CONTACT US</a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="index.html">Home</a> | 
-        <a href="about.html">About Us</a> | 
-        <a href="belts.html">Belts</a> | 
-        <a href="contact.html">Contact Us</a>
-    </nav>
+    <section class="about-hero">
+        <img src="img/gym.jpg" alt="About Us Banner" class="about-hero-img">
+        <div class="about-hero-overlay">
+            <h2>ABOUT OUR ACADEMY</h2>
+            <div class="red-line"></div>
+        </div>
+    </section>
 
-    <main>
-        <h2>ABOUT OUR ACADEMY</h2>
-        
-        <h3>WHAT WE STAND FOR</h3>
-        <p><strong>COURTESY & INTEGRITY</strong><br>
-        We commit to the highest standards of courtesy, integrity, and respect. Every student learns the tenets of Taekwondo both on and off the mat.</p>
-        
-        <p><strong>PERSEVERANCE</strong><br>
-        The true victory in Taekwondo lies in mastery of the self. We forge perseverance, self-control, and deep mental focus through disciplined training.</p>
-        
-        <p><strong>INDOMITABLE SPIRIT</strong><br>
-        We are more than a dojang. We are an inclusive, supportive family committed to building indomitable spirit and lifting each other up.</p>
+    <main class="about-main">
+        <section class="section-block">
+            <p class="subtitle">MISSION & VALUES</p>
+            <h2>WHAT WE STAND FOR</h2>
 
-        <br><hr><br>
+            <div class="grid-container">
+                <div class="card value-card">
+                    <h3>COURTESY & INTEGRITY</h3>
+                    <p>We commit to the highest standards of courtesy, integrity, and respect. Every student learns the tenets of Taekwondo both on and off the mat.</p>
+                </div>
+                <div class="card value-card">
+                    <h3>PERSEVERANCE</h3>
+                    <p>The true victory in Taekwondo lies in mastery of the self. We forge perseverance, self-control, and deep mental focus through disciplined training.</p>
+                </div>
+                <div class="card value-card">
+                    <h3>INDOMITABLE SPIRIT</h3>
+                    <p>We are more than a dojang. We are an inclusive, supportive family committed to building indomitable spirit and lifting each other up.</p>
+                </div>
+            </div>
+        </section>
 
-        <h3>TAEKWONDO MASTERS</h3>
-        <h2>MEET OUR INSTRUCTORS</h2>
-        
-        <img src="img/kurt.png" alt="Taekwondo MASTER BARBOSA">
-        <p><strong>MASTER BARBOSA</strong>
-        <p>TAEKWONDO INSTRUCTORS</p>
-        7th Degree Black Belt with over 25 years of international Taekwondo coaching experience. Specializes in Poomsae, Kyorugi, and Olympic-level competition training.</p>
-        
-        <img src="img/CJ.png" alt="Taekwondo MASTER NIKOLAS">
-        <p><strong>MASTER NIKOLAS</strong>
-        <p>TAEKWONDO INSTRUCTORS</p>
-        5th Degree Black Belt specializing in advanced kicking techniques, sparring strategy, and Taekwondo fitness conditioning programs.  and Olympic-level competition training.</p>
-        
-        <img src="img/pauline.png" alt="Taekwondo MASTER PAULINE">
-        <p><strong>MASTER PAULINE</strong>
-        <p>TAEKWONDO INSTRUCTORS</p>
-        4th Degree Black Belt passionate about self-defense applications, flexibility training, and youth Taekwondo development programs.  and Olympic-level competition training.</p>
+        <section class="section-block text-center">
+            <p class="subtitle">TAEKWONDO MASTERS</p>
+            <h2>MEET OUR INSTRUCTORS</h2>
 
+            <div class="grid-container">
+                <div class="card instructor-card">
+                    <img src="img/kurt.png" alt="Master Barbosa">
+                    <h3>MASTER BARBOSA</h3>
+                    <p class="instructor-title">TAEKWONDO INSTRUCTOR</p>
+                    <p>7th Degree Black Belt with over 25 years of international Taekwondo coaching experience. Specializes in Poomsae, Kyorugi, and Olympic-level competition training.</p>
+                </div>
 
-        <br><hr><br>
-        <img src="img/1.jpg" alt="Taekwondo">
-        <h3>TRAINING PHILOSOPHY</h3>
-        <h2>THE JOURNEY NEVER STOPS</h2>
-        <p>We believe Taekwondo is a lifelong pathway to self-cultivation. There are no shortcuts—only patient practice, focused precision, and a relentless pursuit of the next degree of mastery. Through Poomsae, Kyorugi, and dedicated conditioning, every student discovers their true potential.</p>
+                <div class="card instructor-card">
+                    <img src="img/CJ.png" alt="Master Nikolas">
+                    <h3>MASTER NIKOLAS</h3>
+                    <p class="instructor-title">TAEKWONDO INSTRUCTOR</p>
+                    <p>5th Degree Black Belt specializing in advanced kicking techniques, sparring strategy, and Taekwondo fitness conditioning programs.</p>
+                </div>
 
-        <br><hr><br>
+                <div class="card instructor-card">
+                    <img src="img/pauline.png" alt="Master Pauline">
+                    <h3>MASTER PAULINE</h3>
+                    <p class="instructor-title">TAEKWONDO INSTRUCTOR</p>
+                    <p>4th Degree Black Belt passionate about self-defense applications, flexibility training, and youth Taekwondo development programs.</p>
+                </div>
+            </div>
+        </section>
 
-        <h3>READY TO BEGIN YOUR JOURNEY?</h3>
-        <p>Claim your 100% free premium trial class today. Meet our world-class Taekwondo instructors and begin your journey.</p>
-        <h1>JOIN OUR ACADEMY</h1>
+        <section class="philosophy-section">
+            <div class="philosophy-image">
+                <img src="img/1.jpg" alt="Taekwondo Training">
+            </div>
+            <div class="philosophy-text">
+                <p class="subtitle">TRAINING PHILOSOPHY</p>
+                <h2>THE JOURNEY NEVER STOPS</h2>
+                <p>We believe Taekwondo is a lifelong pathway to self-cultivation. There are no shortcuts—only patient practice, focused precision, and a relentless pursuit of the next degree of mastery. Through Poomsae, Kyorugi, and dedicated conditioning, every student discovers their true potential.</p>
+            </div>
+        </section>
     </main>
 
+    <section class="cta-banner">
+        <h2>READY TO BEGIN YOUR JOURNEY?</h2>
+        <div class="cta-line"></div>
+        <p>Claim your 100% free premium trial class today. Meet our world-class Taekwondo instructors and begin your journey.</p>
+        <a href="contact.html" class="cta-button">JOIN OUR ACADEMY</a>
+    </section>
+
     <footer>
-        <p>&copy; Copyright 2026 School Taekwondo Club | All Rights Reserved. Created by Jas Jaero Jim S. Bacani</p>
+        <p>&copy; 2026 School Taekwondo Club | All Rights Reserved. Jas Jaero Jim S. Bacani</p>
     </footer>
 
 </body>
