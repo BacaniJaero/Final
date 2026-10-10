@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header, nav, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+header h1 {
+    font-size: 32px;
+    margin: 0 0 15px 0;
+}
+
+.logo {
+    display: block;
+    width: 140px;
+    height: auto;
+    margin: 0 0 20px 0;
+}
+
+main img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: 250px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+nav {
+    font-size: 16px;
+    margin: 0 0 25px 0;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 25px 0 12px 0;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 20px 0 10px 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+}
+
+ul {
+    margin: 0 0 12px 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 4px;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 12px;
+    border-top: 1px solid #ccc;
+}
